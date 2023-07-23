@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Rancho';
+    src: url(Rancho-Regular.ttf);
+} 
+
+@font-face {
+    font-family: 'Arsenal', sans-serif;
+    src: url(Arsenal-Regular.ttf);
+}
+
+
+
+/* barra del navegador */
+ .navegador nav div {
+    background-color: #D5BDAF;
+    padding: 10px;
+  
+   
+}
+/* logo simonetta diseños */
+.navegador nav div h1 {
+    font-family:  'Rancho';
+    font-size: 35px;
+    color: white;
+    padding-left: 30px;
+
+}
+
+/*menu hamburguesa */
+.navegador button {
+    border: 1px solid white;
+}
+
+.navegador button span {
+    color: white;
+}
+
+
+
+/*botones inicio productos etc */
+.menu a {
+    font-family: 'Arsenal', sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+/*botones separacion entre ellos */
+.menu li {
+    padding-left: 20px;
+}
+
+.container {
+    width: auto;
+    padding-top: 20px;
+}
+
+/*subtitulo diseñamos todo...   margin-top: 20px;
+    line-height: 100px; */
+.container .img-inicio img {
+    height: 450px;
+    
+}
+.container h2 {
+    font-family: 'Rancho';
+    font-size: 45px;
+    color: #D5BDAF;
+    text-align: center;
+    margin-bottom: 30px;
+   
+   
+}
+
+.container p {
+    font-size: 20px;
+    color: #D5BDAF;
+    text-align: center;     
+}
+
+.envios {
+    background-color: #e8d4ca;
+    margin-top: 30px;
+    padding: 5px 0px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    font-family: 'Rancho';
+    color: #D5BDAF;
+    text-align: center;
+    margin-top: 25px;
+   
+}  
+
+.contenedor {
+display: grid;
+grid-template-columns: repeat(4,auto);
+justify-content: center;
+margin: 15px;
+text-align: center;
+
+}
+
+.contenedor h2 {
+    font-family: 'Rancho';
+    color: #D5BDAF;
+    font-size: 50px;
+    margin-bottom: 25px;
+   
+    
+}
+
+.contenedor div img {
+    width: 20rem;
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+.contenedor div a {
+    font-family: 'Arsenal', sans-serif;
+    background-color: #D5BDAF;
+    border:#D5BDAF;
+    padding: 5px 50px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.contenedor div h5 {
+    font-family: 'Arsenal', sans-serif;
+    color: #D5BDAF;
+    font-size: 30px;
+    
+}
+
+hr {
+    color: #D5BDAF;
+}
+
+    
+
+.container h3 {
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+    color: #D5BDAF;
+    font-size: 25px;
+    margin: 50px 0px 30px 0px;
+   
+}
+
+.condiciones li {
+list-style: none;
+font-family: 'Arsenal', sans-serif;
+color:#D5BDAF;
+font-size: 20px;
+padding: 5px;
+
+}
+
+.imagen-somos img {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+      
+}
+
+.container label {
+ font-family: 'Arsenal', sans-serif;
+color:#D5BDAF;
+font-size: 20px;
+font-weight: bolder;
+}
+
+.container input {
+    border: 1px solid #D5BDAF;
+    
+}
+
+.container textarea {
+    border: 1px solid #D5BDAF;
+}
+
+.boton-enviar {
+    background-color: #D5BDAF;
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-color: white;
+}
+
