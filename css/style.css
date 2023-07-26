@@ -1,3 +1,139 @@
+.navegador {
+  background-color: #D5BDAF;
+  width: auto;
+  height: 80px;
+}
+.navegador nav {
+  padding: 0px;
+}
+.navegador div {
+  background-color: #D5BDAF;
+}
+.navegador p {
+  font-family: "Rancho";
+  font-size: 35px;
+  color: white;
+  padding-top: 8px;
+  padding-left: 20px;
+}
+.navegador button {
+  border: 1px solid white;
+}
+.navegador a {
+  font-family: "Arsenal", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.navegador li {
+  padding-left: 20px;
+}
 
+.container {
+  width: auto;
+  padding-top: 20px;
+}
+.container .img-inicio img {
+  height: 500px;
+  margin-bottom: 20px;
+}
+.container h1 {
+  font-family: "Rancho";
+  font-size: 45px;
+  color: #D5BDAF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container p {
+  font-size: 20px;
+  color: #D5BDAF;
+  text-align: center;
+  padding: 0px 50px;
+}
+.container label {
+  font-family: "Arsenal", sans-serif;
+  color: #D5BDAF;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container input {
+  border: 1px solid #D5BDAF;
+}
+.container textarea {
+  border: 1px solid #D5BDAF;
+}
+.container .boton-enviar {
+  background-color: #D5BDAF;
+  color: white;
+  font-family: "Arsenal", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-color: white;
+}
+
+.footer h3 {
+  font-family: "Rancho";
+  font-size: 20px;
+  color: #D5BDAF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  margin: 15px;
+  text-align: center;
+}
+.contenedor h1 {
+  font-family: "Rancho";
+  color: #D5BDAF;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.contenedor img {
+  width: 20rem;
+  height: 320px;
+  margin-bottom: 10px;
+}
+.contenedor a {
+  font-family: "Arsenal", sans-serif;
+  background-color: #D5BDAF;
+  border: #D5BDAF;
+  padding: 5px 50px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.contenedor h2 {
+  font-family: "Arsenal", sans-serif;
+  color: #D5BDAF;
+  font-size: 30px;
+}
+
+.mayorista {
+  margin: 30px 0px;
+}
+.mayorista li {
+  list-style: none;
+  font-family: "Arsenal", sans-serif;
+  color: #D5BDAF;
+  font-size: 20px;
+  padding: 5px;
+}
+
+hr {
+  color: #D5BDAF;
+}
+
+.imagen-somos img {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
