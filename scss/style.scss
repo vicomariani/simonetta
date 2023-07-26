@@ -1,6 +1,7 @@
 
 $color-primario: #D5BDAF;
 $color-secundario: white; 
+$color-terciario: #af9281;
 
 .navegador {
     background-color: $color-primario;
@@ -25,21 +26,24 @@ $color-secundario: white;
         padding-left: 20px;
     
     }
- 
-    .menu-burguer {
-        border: $color-secundario;
-           
-    }
 
     a {
         font-family: 'Arsenal', sans-serif;
         color: $color-secundario;
         font-weight: bold;
+        &:hover {
+            color: $color-terciario;
+        }
      }
  
      li {
          padding-left: 20px;
+        
     }
+}
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
 .container {
@@ -96,6 +100,10 @@ $color-secundario: white;
         margin-top: 5px;
         margin-bottom: 15px;
         border-color: $color-secundario;
+        &:hover {
+            background-color: $color-terciario;
+        }
+       
     }
 }
 
@@ -138,6 +146,9 @@ $color-secundario: white;
         padding: 5px 50px;
         margin-top: 5px;
         margin-bottom: 25px;
+        &:hover {
+            background-color: $color-terciario;
+        }
     }
 
     h2 {
