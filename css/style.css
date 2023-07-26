@@ -16,8 +16,8 @@
   padding-top: 8px;
   padding-left: 20px;
 }
-.navegador button {
-  border: 1px solid white;
+.navegador .menu-burguer {
+  border: white;
 }
 .navegador a {
   font-family: "Arsenal", sans-serif;
@@ -40,8 +40,8 @@
   font-family: "Rancho";
   font-size: 45px;
   color: #D5BDAF;
-  text-align: center;
   margin-bottom: 30px;
+  text-align: center;
 }
 .container p {
   font-size: 20px;

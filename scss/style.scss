@@ -1,8 +1,9 @@
 
-
+$color-primario: #D5BDAF;
+$color-secundario: white; 
 
 .navegador {
-    background-color: #D5BDAF;
+    background-color: $color-primario;
     width: auto;
     height: 80px;
    
@@ -12,34 +13,34 @@
 
     }
     div {
-        background-color: #D5BDAF;    
+        background-color: $color-primario;    
 
-    }
-    p {
+     } 
+        
+     p {
         font-family:  'Rancho';
         font-size: 35px;
-        color: white;
+        color: $color-secundario;
         padding-top: 8px;
         padding-left: 20px;
     
     }
-    button {
-        border: 1px solid white;
-    
+ 
+    .menu-burguer {
+        border: $color-secundario;
+           
     }
+
     a {
         font-family: 'Arsenal', sans-serif;
-        color: white;
+        color: $color-secundario;
         font-weight: bold;
      }
  
      li {
          padding-left: 20px;
-     }
-
+    }
 }
-
-
 
 .container {
     width: auto;
@@ -48,46 +49,44 @@
     .img-inicio img {
         height: 500px;
         margin-bottom: 20px;
-       
-        
+              
     }
 
     h1 {
         font-family: 'Rancho';
         font-size: 45px;
-        color: #D5BDAF;
-        text-align: center;
+        color: $color-primario;
         margin-bottom: 30px;
-       
+        text-align: center;  
        
     }
 
     p {
         font-size: 20px;
-        color: #D5BDAF;
+        color: $color-primario;
         text-align: center;
         padding: 0px 50px;      
     }
 
     label {
-        font-family: 'Arsenal', sans-serif;
-       color:#D5BDAF;
+       font-family: 'Arsenal', sans-serif;
+       color:$color-primario;
        font-size: 20px;
        font-weight: bolder;
-       }
+    }
 
        input {
-        border: 1px solid #D5BDAF;
+        border: 1px solid $color-primario;
         
     }
 
     textarea {
-        border: 1px solid #D5BDAF;
+        border: 1px solid $color-primario;
     }
 
     .boton-enviar {
-        background-color: #D5BDAF;
-        color: white;
+        background-color: $color-primario;
+        color: $color-secundario;
         font-family: 'Arsenal', sans-serif;
         font-size: 17px;
         text-align: center;
@@ -96,17 +95,16 @@
         padding: 4px;
         margin-top: 5px;
         margin-bottom: 15px;
-        border-color: white;
+        border-color: $color-secundario;
     }
-
 }
 
-
 .footer {
+
     h3 {
         font-family: 'Rancho';
         font-size: 20px;
-        color: #D5BDAF;
+        color: $color-primario;
         text-align: center;
         margin-top: 10px;
     }
@@ -121,7 +119,7 @@
 
     h1 {
         font-family: 'Rancho';
-        color: #D5BDAF;
+        color: $color-primario;
         font-size: 50px;
         margin-bottom: 25px;
                
@@ -135,8 +133,8 @@
 
     a {
         font-family: 'Arsenal', sans-serif;
-        background-color: #D5BDAF;
-        border:#D5BDAF;
+        background-color: $color-primario;
+        border: $color-primario;
         padding: 5px 50px;
         margin-top: 5px;
         margin-bottom: 25px;
@@ -144,7 +142,7 @@
 
     h2 {
         font-family: 'Arsenal', sans-serif;
-        color: #D5BDAF;
+        color: $color-primario;
         font-size: 30px;
         
     }
@@ -156,7 +154,7 @@
     li {
         list-style: none;
         font-family: 'Arsenal', sans-serif;
-        color:#D5BDAF;
+        color:$color-primario;
         font-size: 20px;
         padding: 5px;
         
@@ -166,7 +164,7 @@
 
 
 hr {
-    color: #D5BDAF;
+    color: $color-primario;
 }
 
  
