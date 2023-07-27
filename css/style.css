@@ -51,7 +51,6 @@
   font-size: 20px;
   color: #D5BDAF;
   text-align: center;
-  padding: 0px 50px;
 }
 .container label {
   font-family: "Arsenal", sans-serif;
@@ -103,7 +102,7 @@
   font-size: 50px;
   margin-bottom: 25px;
 }
-.contenedor img {
+.contenedor .img {
   width: 20rem;
   height: 320px;
   margin-bottom: 10px;
@@ -141,9 +140,34 @@ hr {
 }
 
 .imagen-somos img {
-  width: 250px;
-  height: 250px;
-  margin: 20px;
+  width: 300px;
+  height: 300px;
+  margin: 10px 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .navegador p {
+    width: 90%;
+  }
+  .imagen-somos img {
+    width: 260px;
+    height: 260px;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navegador p {
+    width: 80%;
+  }
+  .imagen-somos img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+  }
+  .container .img-inicio img {
+    height: 200px;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

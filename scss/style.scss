@@ -2,6 +2,9 @@
 $color-primario: #D5BDAF;
 $color-secundario: white; 
 $color-terciario: #af9281;
+$tipografia-principal: "Rancho";
+$tipografia-secundaria: "Arsenal", sans-serif;
+
 
 .navegador {
     background-color: $color-primario;
@@ -19,7 +22,8 @@ $color-terciario: #af9281;
      } 
         
      p {
-        font-family:  'Rancho';
+       
+        font-family:  $tipografia-principal;
         font-size: 35px;
         color: $color-secundario;
         padding-top: 8px;
@@ -28,7 +32,7 @@ $color-terciario: #af9281;
     }
 
     a {
-        font-family: 'Arsenal', sans-serif;
+        font-family: $tipografia-secundaria;
         color: $color-secundario;
         font-weight: bold;
         &:hover {
@@ -40,6 +44,7 @@ $color-terciario: #af9281;
          padding-left: 20px;
         
     }
+
 }
 
 .navbar-toggler-icon{
@@ -57,7 +62,7 @@ $color-terciario: #af9281;
     }
 
     h1 {
-        font-family: 'Rancho';
+        font-family: $tipografia-principal;
         font-size: 45px;
         color: $color-primario;
         margin-bottom: 30px;
@@ -69,17 +74,17 @@ $color-terciario: #af9281;
         font-size: 20px;
         color: $color-primario;
         text-align: center;
-        padding: 0px 50px;      
+              
     }
 
     label {
-       font-family: 'Arsenal', sans-serif;
+       font-family: $tipografia-secundaria;
        color:$color-primario;
        font-size: 20px;
        font-weight: bolder;
     }
 
-       input {
+    input {
         border: 1px solid $color-primario;
         
     }
@@ -91,7 +96,7 @@ $color-terciario: #af9281;
     .boton-enviar {
         background-color: $color-primario;
         color: $color-secundario;
-        font-family: 'Arsenal', sans-serif;
+        font-family: $tipografia-secundaria;
         font-size: 17px;
         text-align: center;
         width: 100px;
@@ -110,7 +115,7 @@ $color-terciario: #af9281;
 .footer {
 
     h3 {
-        font-family: 'Rancho';
+        font-family: $tipografia-principal;
         font-size: 20px;
         color: $color-primario;
         text-align: center;
@@ -126,21 +131,21 @@ $color-terciario: #af9281;
     text-align: center;
 
     h1 {
-        font-family: 'Rancho';
+        font-family: $tipografia-principal;
         color: $color-primario;
         font-size: 50px;
         margin-bottom: 25px;
                
     }
 
-    img {
+    .img {
         width: 20rem;
         height: 320px;
         margin-bottom: 10px;
     }
 
     a {
-        font-family: 'Arsenal', sans-serif;
+        font-family: $tipografia-secundaria;
         background-color: $color-primario;
         border: $color-primario;
         padding: 5px 50px;
@@ -152,7 +157,7 @@ $color-terciario: #af9281;
     }
 
     h2 {
-        font-family: 'Arsenal', sans-serif;
+        font-family: $tipografia-secundaria;
         color: $color-primario;
         font-size: 30px;
         
@@ -164,13 +169,12 @@ $color-terciario: #af9281;
 
     li {
         list-style: none;
-        font-family: 'Arsenal', sans-serif;
+        font-family: $tipografia-secundaria;
         color:$color-primario;
         font-size: 20px;
         padding: 5px;
         
-        }
-    
+        }  
 }
 
 
@@ -179,10 +183,37 @@ hr {
 }
 
  
-.imagen-somos img {
-    width: 250px;
-    height: 250px;
-    margin: 20px;
+.imagen-somos  {
+    img {
+     width: 300px;
+     height: 300px;
+     margin: 10px 30px;
+    }
 }
 
+@media screen and (max-width: 992px) {
+    .navegador p {
+     width: 90%;
+    }
+    .imagen-somos img {
+     width: 260px;
+     height: 260px;
+     margin: 15px;
+    }
+   
 
+}
+@media screen and (max-width: 600px) {
+    .navegador p {
+        width: 80%;
+    }  
+    .imagen-somos img {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+    .container .img-inicio img {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}
