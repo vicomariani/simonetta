@@ -11,8 +11,9 @@
             @include sizes(260px, 260px);
         }
     }
-   
 }
+
+
 @media screen and (max-width: 600px) {
     .navegador p {
         width: 80%;
@@ -23,20 +24,19 @@
         &:hover {
             @include sizes(260px, 260px);
         }
-    }
+    }   
+  
     .container .img-inicio img {
         height: calc($tamaño)-100;
         margin-bottom: ($margin);
     }
-.contenedor img {
+    .contenedor img {
     @include sizes(250px, 250px);
-}
+    }
 
-.contenedor    h1 {
+    .contenedor    h1 {
     font-size: calc($fuente*2);
-
-}
-
+    }
 
 }
 

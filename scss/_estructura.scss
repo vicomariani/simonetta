@@ -56,8 +56,8 @@
     }
 
     .boton-enviar {
-       width: 140px;
-       height: 40px;
+        width: 140px;
+        height: 40px;
         background-color: $color-primario;
         color: $color-secundario;
         font-family: $tipografia-secundaria;
@@ -68,12 +68,21 @@
         margin-top: calc($margin/2);
         margin-bottom: calc($margin)+5;
         border-color: $color-secundario;
+        transition: height 1s, width 1s;
         &:hover {
             background-color: $color-terciario;
+            @include sizes(145px, 45px)
         }  
 
     }
 }
+
+/*transition: height 1s, width 1s;
+
+        &:hover {
+            @include sizes(310px, 310px);
+           
+        }*/
 
 .contenedor {
     @include grid-columns-center;
@@ -144,12 +153,7 @@ hr {
     img {
       @include sizes(300px, 300px);
       margin: ($margin) calc($margin*3);
-      transition: height 1s, width 1s;
-
-        &:hover {
-            @include sizes(310px, 310px);
-           
-        }
+      
       
     }
 }

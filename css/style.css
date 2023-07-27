@@ -46,11 +46,20 @@
   margin-top: 5px;
   margin-bottom: 15px;
   border-color: white;
+  transition: height 1s, width 1s;
 }
 .container .boton-enviar:hover {
   background-color: #af9281;
+  height: 45px;
+  width: 145px;
 }
 
+/*transition: height 1s, width 1s;
+
+        &:hover {
+            @include sizes(310px, 310px);
+
+        }*/
 .contenedor {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -114,11 +123,6 @@ hr {
   height: 300px;
   width: 300px;
   margin: 10px 30px;
-  transition: height 1s, width 1s;
-}
-.imagen-somos img:hover {
-  height: 310px;
-  width: 310px;
 }
 
 .navegador {
