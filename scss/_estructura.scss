@@ -1,0 +1,141 @@
+@mixin grid-columns-center {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+}
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.container {
+    width: auto;
+    padding-top: calc($padding*2);
+
+    .img-inicio img {
+        height: calc($tamaño*2)-100;
+        margin-bottom: calc($margin*2);
+              
+    }
+
+    h1 {
+        font-family: $tipografia-principal;
+        font-size: calc($fuente*2)+5;
+        color: $color-primario;
+        margin-bottom: calc($margin*3);
+        text-align: center;  
+       
+    }
+    
+    p {
+        font-size: ($fuente);
+        color: $color-primario;
+        text-align: center;
+              
+    }
+
+    label {
+       font-family: $tipografia-secundaria;
+       color:$color-primario;
+       font-size: ($fuente);
+       font-weight: bolder;
+    }
+
+    input {
+        border: 1px solid $color-primario;
+        
+    }
+
+    textarea {
+        border: 1px solid $color-primario;
+    }
+
+    .boton-enviar {
+        @include sizes(140px, 40px);
+        background-color: $color-primario;
+        color: $color-secundario;
+        font-family: $tipografia-secundaria;
+        font-size: calc($fuente)-3;
+        text-align: center;
+        padding-top: calc($padding/2);
+        padding-bottom: calc($padding/2);
+        margin-top: calc($margin/2);
+        margin-bottom: calc($margin)+5;
+        border-color: $color-secundario;
+        &:hover {
+            background-color: $color-terciario;
+        }
+       
+    }
+}
+
+.contenedor {
+   @include grid-columns-center;
+    margin: calc($margin)+5;
+    text-align: center;
+
+    h1 {
+        font-family: $tipografia-principal;
+        color: $color-primario;
+        font-size: calc($fuente*2)+10;
+        margin-bottom: calc($margin*2)+5;
+               
+    }
+
+    img {
+        @include sizes(320px, 320px);
+        margin-bottom: ($margin);
+    }
+
+    a {
+        font-family: $tipografia-secundaria;
+        background-color: $color-primario;
+        border: $color-primario;
+        padding: calc($padding/2) calc($padding*5);
+        margin-top: calc($margin/2);
+        margin-bottom: calc($margin*2)+5;
+        &:hover {
+            background-color: $color-terciario;
+        }
+    }
+
+    h2 {
+        font-family: $tipografia-secundaria;
+        color: $color-primario;
+        font-size: calc($fuente)+10;
+        
+    }
+}
+
+.mayorista {
+    margin: calc($margin*3) calc($margin)-10;
+
+    h2 {
+        color: $color-primario;
+        font-family: $tipografia-secundaria;
+        font-size: calc($fuente)+10;
+        font-weight: bold;
+        margin-top: calc($margin*5);
+        margin-bottom: calc($margin*3);
+    }
+
+    li {
+        list-style: none;
+        font-family: $tipografia-secundaria;
+        color:$color-primario;
+        font-size: ($fuente);
+        padding: calc($padding/2);
+        }  
+}
+
+hr {
+    color: $color-primario;
+}
+ 
+.imagen-somos  {
+    img {
+      @include sizes(300px, 300px);
+      margin: ($margin) calc($margin*3);
+    }
+}

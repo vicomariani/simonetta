@@ -1,0 +1,11 @@
+.footer {
+    @include grid-columns-center;
+    
+    h3 {
+        font-family: $tipografia-principal;
+        font-size: ($fuente);
+        color: $color-primario;
+        text-align: center;
+        margin-top: ($margin);
+    }
+}  

@@ -1,0 +1,52 @@
+.navegador {
+    background-color: $color-primario;
+    width: auto;
+    height: calc($contenedor/2)-30;
+
+
+    nav {
+        padding: calc($padding)-10;
+        
+    }
+    
+    button {
+        border-color: $color-secundario;
+        &:hover {
+            color: $color-secundario;
+        }
+
+    }
+    div {
+        background-color: $color-primario;    
+
+     } 
+        
+     p {
+       
+        font-family:  $tipografia-principal;
+        font-size: calc($fuente*2)-5;
+        color: $color-secundario;
+        padding-top: calc($padding)-2;
+        padding-left: calc($padding*2);
+    
+    }
+
+    a {
+        font-family: $tipografia-secundaria;
+        color: $color-secundario;
+        font-weight: bold;
+        &:hover {
+            color: $color-terciario;
+        }
+     }
+ 
+     li {
+         padding-left: calc($padding*2);
+        
+    }
+
+}
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}

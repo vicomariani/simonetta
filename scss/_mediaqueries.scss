@@ -1,0 +1,31 @@
+@media screen and (max-width: 992px) {
+    .navegador p {
+     width: 90%;
+    }
+    .imagen-somos img {
+        @include sizes(250px, 250px);
+        margin: calc($margin)+5;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .navegador p {
+        width: 80%;
+    }  
+    .imagen-somos img {
+        @include sizes(250px, 250px);
+        margin: ($margin);
+    }
+    .container .img-inicio img {
+        height: calc($tamaño)-100;
+        margin-bottom: ($margin);
+    }
+.contenedor img {
+    @include sizes(250px, 250px);
+}
+
+.contenedor    h1 {
+    font-size: calc($fuente*2);
+
+}
+}
