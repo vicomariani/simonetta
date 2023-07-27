@@ -66,13 +66,13 @@
         border-color: $color-secundario;
         &:hover {
             background-color: $color-terciario;
-        }
-       
+        }  
+
     }
 }
 
 .contenedor {
-   @include grid-columns-center;
+    @include grid-columns-center;
     margin: calc($margin)+5;
     text-align: center;
 
@@ -84,9 +84,8 @@
                
     }
 
-    img {
-        width: 320px;
-        height: 320px;
+    img {         
+        @include sizes(320px, 320px);
         margin-bottom: ($margin);
     }
 
@@ -105,8 +104,7 @@
     h2 {
         font-family: $tipografia-secundaria;
         color: $color-primario;
-        font-size: calc($fuente)+10;
-        
+        font-size: calc($fuente)+10;   
     }
 }
 
