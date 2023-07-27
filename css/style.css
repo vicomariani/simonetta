@@ -2,6 +2,9 @@
   width: auto;
   padding-top: 20px;
 }
+.container .introduccion {
+  margin-top: 30px;
+}
 .container .img-inicio img {
   height: 500px;
   margin-bottom: 20px;
@@ -111,6 +114,11 @@ hr {
   height: 300px;
   width: 300px;
   margin: 10px 30px;
+  transition: height 1s, width 1s;
+}
+.imagen-somos img:hover {
+  height: 310px;
+  width: 310px;
 }
 
 .navegador {
@@ -162,6 +170,10 @@ hr {
     width: 250px;
     margin: 15px;
   }
+  .imagen-somos img:hover {
+    height: 260px;
+    width: 260px;
+  }
 }
 @media screen and (max-width: 600px) {
   .navegador p {
@@ -171,6 +183,10 @@ hr {
     height: 250px;
     width: 250px;
     margin: 10px;
+  }
+  .imagen-somos img:hover {
+    height: 260px;
+    width: 260px;
   }
   .container .img-inicio img {
     height: 200px;

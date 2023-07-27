@@ -7,6 +7,9 @@
     .imagen-somos img {
         @include sizes(250px, 250px);
         margin: calc($margin)+5;
+        &:hover {
+            @include sizes(260px, 260px);
+        }
     }
    
 }
@@ -17,6 +20,9 @@
     .imagen-somos img {
         @include sizes(250px, 250px);
         margin: ($margin);
+        &:hover {
+            @include sizes(260px, 260px);
+        }
     }
     .container .img-inicio img {
         height: calc($tamaño)-100;
@@ -30,5 +36,7 @@
     font-size: calc($fuente*2);
 
 }
+
+
 }
 

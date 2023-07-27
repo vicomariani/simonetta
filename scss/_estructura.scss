@@ -13,6 +13,10 @@
     width: auto;
     padding-top: calc($padding*2);
 
+    .introduccion {
+        margin-top: ($margin*3);
+    }
+
     .img-inicio img {
         height: calc($tamaño*2)-100;
         margin-bottom: calc($margin*2);
@@ -87,6 +91,7 @@
     img {         
         @include sizes(320px, 320px);
         margin-bottom: ($margin);
+        
     }
 
     a {
@@ -139,5 +144,12 @@ hr {
     img {
       @include sizes(300px, 300px);
       margin: ($margin) calc($margin*3);
+      transition: height 1s, width 1s;
+
+        &:hover {
+            @include sizes(310px, 310px);
+           
+        }
+      
     }
 }
