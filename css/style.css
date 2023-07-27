@@ -87,6 +87,7 @@
   margin: 30px 0px;
 }
 .mayorista h2 {
+  background-image: linear-gradient(to left, #D5BDAF, white, white, #D5BDAF);
   color: #D5BDAF;
   font-family: "Arsenal", sans-serif;
   font-size: 30px;
