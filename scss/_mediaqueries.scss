@@ -5,8 +5,7 @@
      width: 90%;
     }
     .imagen-somos img {
-        width: 250px;
-        height: 250px;
+        @include sizes(250px, 250px);
         margin: calc($margin)+5;
     }
    
@@ -16,8 +15,7 @@
         width: 80%;
     }  
     .imagen-somos img {
-        width: 250px;
-        height: 250px;
+        @include sizes(250px, 250px);
         margin: ($margin);
     }
     .container .img-inicio img {
@@ -25,8 +23,7 @@
         margin-bottom: ($margin);
     }
 .contenedor img {
-    width: 250px;
-    height: 250px;
+    @include sizes(250px, 250px);
 }
 
 .contenedor    h1 {

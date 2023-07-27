@@ -4,7 +4,10 @@
     justify-content: center;
 }
 
-
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
 
 .container {
     width: auto;
@@ -134,8 +137,7 @@ hr {
  
 .imagen-somos  {
     img {
-      width: 300px;
-      height: 300px;
+      @include sizes(300px, 300px);
       margin: ($margin) calc($margin*3);
     }
 }
