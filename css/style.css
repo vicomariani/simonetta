@@ -183,6 +183,7 @@ hr {
     font-size: 40px;
   }
 }
+/* @include sizes(250px, 250px);*/
 .footer {
   display: grid;
   grid-template-columns: repeat(4, auto);

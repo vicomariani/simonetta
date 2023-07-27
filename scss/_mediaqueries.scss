@@ -1,9 +1,12 @@
+
+
 @media screen and (max-width: 992px) {
     .navegador p {
      width: 90%;
     }
     .imagen-somos img {
-        @include sizes(250px, 250px);
+        width: 250px;
+        height: 250px;
         margin: calc($margin)+5;
     }
    
@@ -13,7 +16,8 @@
         width: 80%;
     }  
     .imagen-somos img {
-        @include sizes(250px, 250px);
+        width: 250px;
+        height: 250px;
         margin: ($margin);
     }
     .container .img-inicio img {
@@ -21,7 +25,8 @@
         margin-bottom: ($margin);
     }
 .contenedor img {
-    @include sizes(250px, 250px);
+    width: 250px;
+    height: 250px;
 }
 
 .contenedor    h1 {
@@ -29,3 +34,5 @@
 
 }
 }
+
+/* @include sizes(250px, 250px);*/

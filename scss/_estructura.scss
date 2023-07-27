@@ -4,10 +4,7 @@
     justify-content: center;
 }
 
-@mixin sizes($width, $height) {
-    width: $width;
-    height: $height;
-}
+
 
 .container {
     width: auto;
@@ -52,7 +49,8 @@
     }
 
     .boton-enviar {
-        @include sizes(140px, 40px);
+       width: 140px;
+       height: 40px;
         background-color: $color-primario;
         color: $color-secundario;
         font-family: $tipografia-secundaria;
@@ -84,7 +82,8 @@
     }
 
     img {
-        @include sizes(320px, 320px);
+        width: 320px;
+        height: 320px;
         margin-bottom: ($margin);
     }
 
@@ -135,7 +134,8 @@ hr {
  
 .imagen-somos  {
     img {
-      @include sizes(300px, 300px);
+      width: 300px;
+      height: 300px;
       margin: ($margin) calc($margin*3);
     }
 }
