@@ -1,21 +1,24 @@
-
-$color-primario: #D5BDAF;
-$color-secundario: white; 
-$color-terciario: #af9281;
-$tipografia-principal: "Rancho";
-$tipografia-secundaria: "Arsenal", sans-serif;
-
+@import "colores";
+@import "tipografias";
+@import "medidas";
 
 .navegador {
     background-color: $color-primario;
     width: auto;
     height: 80px;
-   
+
 
     nav {
         padding: 0px;
+        button {
+            border-color: $color-secundario;
+            &:hover {
+                color: $color-secundario;
+            }
 
+        }
     }
+
     div {
         background-color: $color-primario;    
 
@@ -138,8 +141,8 @@ $tipografia-secundaria: "Arsenal", sans-serif;
                
     }
 
-    .img {
-        width: 20rem;
+    img {
+        width: 320px;
         height: 320px;
         margin-bottom: 10px;
     }
@@ -166,6 +169,14 @@ $tipografia-secundaria: "Arsenal", sans-serif;
 
 .mayorista {
     margin: 30px 0px;
+
+    h2 {
+        color: $color-primario;
+        font-family: $tipografia-secundaria;
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 
     li {
         list-style: none;
@@ -216,4 +227,13 @@ hr {
         height: 200px;
         margin-bottom: 10px;
     }
+.contenedor img {
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor    h1 {
+    font-size: 40px;
+
+}
 }

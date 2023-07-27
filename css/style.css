@@ -1,10 +1,16 @@
 .navegador {
   background-color: #D5BDAF;
   width: auto;
-  height: 80px;
+  height: "200"/3;
 }
 .navegador nav {
   padding: 0px;
+}
+.navegador nav button {
+  border-color: white;
+}
+.navegador nav button:hover {
+  color: white;
 }
 .navegador div {
   background-color: #D5BDAF;
@@ -102,8 +108,8 @@
   font-size: 50px;
   margin-bottom: 25px;
 }
-.contenedor .img {
-  width: 20rem;
+.contenedor img {
+  width: 320px;
   height: 320px;
   margin-bottom: 10px;
 }
@@ -126,6 +132,13 @@
 
 .mayorista {
   margin: 30px 0px;
+}
+.mayorista h2 {
+  color: #D5BDAF;
+  font-family: "Arsenal", sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .mayorista li {
   list-style: none;
@@ -167,6 +180,13 @@ hr {
   .container .img-inicio img {
     height: 200px;
     margin-bottom: 10px;
+  }
+  .contenedor img {
+    width: 250px;
+    height: 250px;
+  }
+  .contenedor h1 {
+    font-size: 40px;
   }
 }
 
