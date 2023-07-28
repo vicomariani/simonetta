@@ -1,6 +1,4 @@
 .footer {
-    @include grid-columns-center;
-    
     h3 {
         font-family: $tipografia-principal;
         font-size: ($fuente);
@@ -8,4 +6,9 @@
         text-align: center;
         margin-top: ($margin);
     }
-}  
+} 
+
+hr {
+    color: $color-primario;
+
+}

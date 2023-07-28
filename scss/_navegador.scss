@@ -18,9 +18,9 @@
     div {
         background-color: $color-primario;    
 
-     } 
+    } 
         
-     p {
+    p {
        
         font-family:  $tipografia-principal;
         font-size: calc($fuente*2)-5;
@@ -37,7 +37,7 @@
         &:hover {
             color: $color-terciario;
         }
-     }
+    }
  
      li {
          padding-left: calc($padding*2);

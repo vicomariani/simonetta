@@ -1,0 +1,26 @@
+.mayorista {
+    margin: calc($margin*3) calc($margin)-10;
+
+   
+
+    h2 {
+        background-image: linear-gradient(to left, $color-primario, $color-secundario, $color-secundario, $color-primario);
+        color: $color-primario;
+        font-family: $tipografia-secundaria;
+        font-size: calc($fuente)+10;
+        margin-top: calc($margin*5);
+        margin-bottom: calc($margin*3);
+    }
+}
+
+.condiciones {
+    margin-top: calc($margin*3);
+    margin-bottom: calc($margin*5);
+    li {
+        list-style: none;
+        font-family: $tipografia-secundaria;
+        color:$color-primario;
+        font-size: ($fuente);
+        padding: calc($padding/2);
+    }  
+}
