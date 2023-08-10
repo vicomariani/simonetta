@@ -15,29 +15,31 @@
 
     .introduccion {
         margin-top: ($margin*3);
+        h1 {
+            font-family: $tipografia-principal;
+            font-size: calc($fuente*2)+5;
+            color: $color-primario;
+            margin-bottom: calc($margin*3);
+            text-align: center;  
+        }
+        p {
+            font-size: ($fuente);
+            color: $color-primario;
+            text-align: center;
+            margin-top: ($margin);
+        }
+        h2 {
+            font-family: $tipografia-principal;
+            font-size: ($fuente);
+            color: $color-primario;
+            margin-top: calc($margin*3);
+            text-align: center;  
+        }  
     }
-
     .img-inicio img {
         height: calc($tamaño*2)-80;
-        margin-bottom: calc($margin*2);
-              
-    }
-
-    h1 {
-        font-family: $tipografia-principal;
-        font-size: calc($fuente*2)+5;
-        color: $color-primario;
-        margin-bottom: calc($margin*3);
-        text-align: center;  
-       
-    }
-    
-    p {
-        font-size: ($fuente);
-        color: $color-primario;
-        text-align: center;
-              
-    }
+        margin-bottom: calc($margin*2); 
+    }  
 
     label {
         font-family: $tipografia-secundaria;

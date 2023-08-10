@@ -5,21 +5,29 @@
 .container .introduccion {
   margin-top: 30px;
 }
-.container .img-inicio img {
-  height: 520px;
-  margin-bottom: 20px;
-}
-.container h1 {
+.container .introduccion h1 {
   font-family: "Rancho";
   font-size: 45px;
   color: #D5BDAF;
   margin-bottom: 30px;
   text-align: center;
 }
-.container p {
+.container .introduccion p {
   font-size: 20px;
   color: #D5BDAF;
   text-align: center;
+  margin-top: 10px;
+}
+.container .introduccion h2 {
+  font-family: "Rancho";
+  font-size: 20px;
+  color: #D5BDAF;
+  margin-top: 30px;
+  text-align: center;
+}
+.container .img-inicio img {
+  height: 520px;
+  margin-bottom: 20px;
 }
 .container label {
   font-family: "Arsenal", sans-serif;
@@ -135,7 +143,22 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container .introduccion h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .container .introduccion p {
+    font-size: 14px;
+  }
+  .container .introduccion h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .container .img-inicio img {
+    height: 400px;
+    margin-top: 20px;
+  }
   .navegador p {
     width: 90%;
   }
@@ -149,7 +172,18 @@
     height: 260px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  .container .introduccion h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .container .introduccion p {
+    font-size: 15px;
+  }
+  .container .introduccion h2 {
+    font-size: 15px;
+    margin-bottom: 22px;
+  }
   .navegador p {
     width: 80%;
   }
@@ -188,6 +222,19 @@ hr {
 
 .mayorista {
   margin: 30px 0px;
+}
+.mayorista h1 {
+  font-family: "Rancho";
+  font-size: 45px;
+  color: #D5BDAF;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.mayorista p {
+  font-size: 20px;
+  color: #D5BDAF;
+  text-align: center;
+  margin-top: 10px;
 }
 .mayorista h2 {
   background-image: linear-gradient(to left, #D5BDAF, white, white, #D5BDAF);

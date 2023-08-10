@@ -1,6 +1,18 @@
 .mayorista {
     margin: calc($margin*3) calc($margin)-10;
-
+    h1 {
+        font-family: $tipografia-principal;
+        font-size: calc($fuente*2)+5;
+        color: $color-primario;
+        margin-bottom: calc($margin*3);
+        text-align: center;  
+    }
+    p {
+        font-size: ($fuente);
+        color: $color-primario;
+        text-align: center;
+        margin-top: ($margin);
+    }
    
 
     h2 {

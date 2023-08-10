@@ -1,4 +1,26 @@
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        .introduccion {
+            
+            h1 {                
+                font-size: calc($fuente*2)-8;
+                margin-bottom: ($margin);
+            }
+            p {
+                font-size: calc($fuente)-6;
+            }
+            h2 {
+                font-size: ($fuente);
+                margin-top: calc($margin*2);              
+            }
+        }
+        .img-inicio img {
+            height: calc($tamaño)+100;
+            margin-top: calc($margin*2); 
+        }  
+    }
+
+
     .navegador p {
      width: 90%;
     }
@@ -11,7 +33,24 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+    
+    .container .introduccion {
+            
+            h1 {
+                font-size: calc($fuente*2)-5;
+                margin-bottom: calc($margin*2);  
+            }
+            p {
+                font-size: calc($fuente/2)+5;
+            }
+            h2 {
+                font-size: calc($fuente)-5;
+                margin-bottom: calc($margin*2)+2;
+            }
+        }
+   
+
     .navegador p {
         width: 80%;
     }  
