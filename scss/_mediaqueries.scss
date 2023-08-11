@@ -1,8 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container {
        
-        .introduccion {
-            
+        .introduccion {            
             h1 {                
                 font-size: calc($fuente*2)-8;
                 margin-bottom: ($margin);
@@ -19,14 +18,8 @@
             height: calc($tamaño)+100;
             margin-top: calc($margin*2); 
         }  
-        .contaco {
-            flex-direction: column;
-        }
     }
-
-   
-
-
+    
     .navegador p {
      width: 90%;
     }
@@ -37,6 +30,7 @@
             @include sizes(260px, 260px);
         }
     }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -54,12 +48,12 @@
                 font-size: calc($fuente)-5;
                 margin-bottom: calc($margin*2)+2;
             }
-        }
-   
+    }
 
     .navegador p {
         width: 80%;
     }  
+
     .quienes-somos img {
         @include sizes(250px, 250px);
         margin: ($margin);
@@ -80,5 +74,11 @@
     .contenedor    h1 {
     font-size: calc($fuente*2);
     }
+
+ 
+    
+        
+       
+
 }
 
