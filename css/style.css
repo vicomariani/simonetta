@@ -16,7 +16,7 @@
   font-size: 20px;
   color: #D5BDAF;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .container .introduccion h2 {
   font-family: "Rancho";
@@ -28,38 +28,6 @@
 .container .img-inicio img {
   height: 520px;
   margin-bottom: 20px;
-}
-.container label {
-  font-family: "Arsenal", sans-serif;
-  color: #D5BDAF;
-  font-size: 20px;
-  font-weight: bolder;
-}
-.container input {
-  border: 1px solid #D5BDAF;
-}
-.container textarea {
-  border: 1px solid #D5BDAF;
-}
-.container .boton-enviar {
-  width: 140px;
-  height: 40px;
-  background-color: #D5BDAF;
-  color: white;
-  font-family: "Arsenal", sans-serif;
-  font-size: 17px;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border-color: white;
-  transition: height 1s, width 1s;
-}
-.container .boton-enviar:hover {
-  background-color: #af9281;
-  width: 145px;
-  height: 45px;
 }
 
 .contenedor {
@@ -97,10 +65,67 @@
   font-size: 30px;
 }
 
-.imagen-somos img {
+.quienes-somos h1 {
+  font-family: "Rancho";
+  font-size: 45px;
+  color: #D5BDAF;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.quienes-somos p {
+  font-size: 20px;
+  color: #D5BDAF;
+  text-align: center;
+  margin-top: 5px;
+}
+.quienes-somos img {
   width: 300px;
   height: 300px;
   margin: 10px 30px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+}
+.contacto h1 {
+  font-family: "Rancho";
+  font-size: 45px;
+  color: #D5BDAF;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contacto label {
+  font-family: "Arsenal", sans-serif;
+  color: #D5BDAF;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.contacto input {
+  border: 1px solid #D5BDAF;
+}
+.contacto textarea {
+  border: 1px solid #D5BDAF;
+}
+.contacto .boton-enviar {
+  width: 140px;
+  height: 40px;
+  background-color: #D5BDAF;
+  color: white;
+  font-family: "Arsenal", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-color: white;
+  transition: height 1s, width 1s;
+}
+.contacto .boton-enviar:hover {
+  background-color: #af9281;
+  width: 145px;
+  height: 45px;
 }
 
 .navegador {
@@ -159,15 +184,18 @@
     height: 400px;
     margin-top: 20px;
   }
+  .container .contaco {
+    flex-direction: column;
+  }
   .navegador p {
     width: 90%;
   }
-  .imagen-somos img {
+  .quienes-somos img {
     width: 250px;
     height: 250px;
     margin: 15px;
   }
-  .imagen-somos img:hover {
+  .quienes-somos img:hover {
     width: 260px;
     height: 260px;
   }
@@ -187,12 +215,12 @@
   .navegador p {
     width: 80%;
   }
-  .imagen-somos img {
+  .quienes-somos img {
     width: 250px;
     height: 250px;
     margin: 10px;
   }
-  .imagen-somos img:hover {
+  .quienes-somos img:hover {
     width: 260px;
     height: 260px;
   }
@@ -234,7 +262,7 @@ hr {
   font-size: 20px;
   color: #D5BDAF;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .mayorista h2 {
   background-image: linear-gradient(to left, #D5BDAF, white, white, #D5BDAF);

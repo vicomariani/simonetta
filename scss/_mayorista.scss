@@ -1,20 +1,7 @@
 .mayorista {
     margin: calc($margin*3) calc($margin)-10;
-    h1 {
-        font-family: $tipografia-principal;
-        font-size: calc($fuente*2)+5;
-        color: $color-primario;
-        margin-bottom: calc($margin*3);
-        text-align: center;  
-    }
-    p {
-        font-size: ($fuente);
-        color: $color-primario;
-        text-align: center;
-        margin-top: ($margin);
-    }
-   
-
+    @include estilo-heading-paragraph;
+  
     h2 {
         background-image: linear-gradient(to left, $color-primario, $color-secundario, $color-secundario, $color-primario);
         color: $color-primario;

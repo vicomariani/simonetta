@@ -1,5 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container {
+       
         .introduccion {
             
             h1 {                
@@ -18,13 +19,18 @@
             height: calc($tamaño)+100;
             margin-top: calc($margin*2); 
         }  
+        .contaco {
+            flex-direction: column;
+        }
     }
+
+   
 
 
     .navegador p {
      width: 90%;
     }
-    .imagen-somos img {
+    .quienes-somos img {
         @include sizes(250px, 250px);
         margin: calc($margin)+5;
         &:hover {
@@ -54,7 +60,7 @@
     .navegador p {
         width: 80%;
     }  
-    .imagen-somos img {
+    .quienes-somos img {
         @include sizes(250px, 250px);
         margin: ($margin);
         &:hover {
