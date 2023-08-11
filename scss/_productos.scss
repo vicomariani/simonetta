@@ -1,0 +1,45 @@
+.comedor  {
+    h1 {
+       font-family: "Rancho";
+       color: #D5BDAF;
+       font-size: 50px;
+       text-align: center;
+       margin: 25px 0px;
+    }
+    .productos-container {
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        grid-gap: 20px;
+        justify-content: center; 
+
+        .producto {
+            img { 
+               height: 300px;
+               padding: 10px;
+               margin: 10px 0px;           
+            }
+          
+            h2 { 
+               font-family: "Arsenal", sans-serif;
+               font-weight: bolder;
+               color: #bca394;
+               font-size: 25px;
+               text-align: center;
+            }
+          
+            p {
+               font-family: "Arsenal", sans-serif;
+               font-weight: bolder;
+               color:#D5BDAF;
+               font-size: 15px;
+               text-align: center;
+            }
+        }
+    }
+
+
+}
+  
+  
+  
+   
