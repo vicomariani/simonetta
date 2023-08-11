@@ -282,12 +282,22 @@ hr {
   padding: 5px;
 }
 
+.mantas {
+  display: flex;
+  flex-direction: column;
+}
 .mantas h1 {
   font-family: "Rancho";
   color: #D5BDAF;
   font-size: 50px;
   text-align: center;
   margin: 25px 0px;
+}
+.mantas p {
+  font-family: "Arsenal", sans-serif;
+  color: #D5BDAF;
+  font-size: 20px;
+  text-align: center;
 }
 .mantas .productos-container {
   margin: 10px;
@@ -311,7 +321,7 @@ hr {
   font-family: "Arsenal", sans-serif;
   font-weight: bolder;
   color: #D5BDAF;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 

@@ -1,10 +1,20 @@
 .mantas  {
+   display: flex;
+   flex-direction: column;
+   
     h1 {
        font-family: "Rancho";
        color: #D5BDAF;
        font-size: 50px;
        text-align: center;
        margin: 25px 0px;
+    }
+    p{
+           font-family: "Arsenal", sans-serif;
+           color:#D5BDAF;
+           font-size: 20px;
+           text-align: center;
+           
     }
     .productos-container {
       margin: 10px;
@@ -27,7 +37,7 @@
            font-family: "Arsenal", sans-serif;
            font-weight: bolder;
            color:#D5BDAF;
-           font-size: 15px;
+           font-size: 20px;
            text-align: center;
         }
     }
