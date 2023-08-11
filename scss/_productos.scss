@@ -1,56 +1,60 @@
-.mantas  {
+.articulos  {
    display: flex;
    flex-direction: column;
-   
+
     h1 {
-       font-family: "Rancho";
-       color: #D5BDAF;
-       font-size: 50px;
+       font-family: $tipografia-principal;
+       color: $color-primario;
+       font-size: calc($fuente*2)+10;
        text-align: center;
-       margin: 25px 0px;
+       margin-top: calc($margin*2)+5;
+       margin-bottom: calc($margin*2)+5;
     }
     p{
-           font-family: "Arsenal", sans-serif;
-           color:#D5BDAF;
-           font-size: 20px;
+           font-family: $tipografia-secundaria;
+           color:$color-primario;
+           font-size: calc($fuente)-2;
            text-align: center;
+           margin-left: calc($margin*3);
+           margin-right: calc($margin*3);
            
     }
     .productos-container {
-      margin: 10px;
+      margin: 20px;
     }
     .producto {
         text-align: center;
         img {          
            height: 320px;
-           padding: 30px;
-           margin: 10px 0px;           
+           padding: calc($padding*2);
+           margin-top: $margin;
+           margin-bottom: $margin;           
         }      
         h2 { 
-           font-family: "Arsenal", sans-serif;
+           font-family: $tipografia-secundaria;
            font-weight: bolder;
-           color: #bca394;
-           font-size: 25px;
+           color: $color-terciario;
+           font-size: calc($fuente)+5;
            text-align: center;
         }
         p {
-           font-family: "Arsenal", sans-serif;
+           font-family: $tipografia-secundaria;
            font-weight: bolder;
-           color:#D5BDAF;
-           font-size: 20px;
+           color:$color-primario;
+           font-size: ($fuente);
            text-align: center;
         }
     }
 }
 
 .boton-categorias a {
-   font-family: "Arsenal", sans-serif;
-   color: white;
+   font-family: $tipografia-secundaria;
+   color: $color-secundario;
    
  }
  .boton-categorias a:hover {
- background-color: #af9281;
- color: white;
+ background-color: $color-terciario;
+ color: $color-secundario;
  }
   
   

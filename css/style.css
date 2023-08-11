@@ -282,42 +282,46 @@ hr {
   padding: 5px;
 }
 
-.mantas {
+.articulos {
   display: flex;
   flex-direction: column;
 }
-.mantas h1 {
+.articulos h1 {
   font-family: "Rancho";
   color: #D5BDAF;
   font-size: 50px;
   text-align: center;
-  margin: 25px 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.mantas p {
+.articulos p {
   font-family: "Arsenal", sans-serif;
   color: #D5BDAF;
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.articulos .productos-container {
+  margin: 20px;
+}
+.articulos .producto {
   text-align: center;
 }
-.mantas .productos-container {
-  margin: 10px;
-}
-.mantas .producto {
-  text-align: center;
-}
-.mantas .producto img {
+.articulos .producto img {
   height: 320px;
-  padding: 30px;
-  margin: 10px 0px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.mantas .producto h2 {
+.articulos .producto h2 {
   font-family: "Arsenal", sans-serif;
   font-weight: bolder;
-  color: #bca394;
+  color: #af9281;
   font-size: 25px;
   text-align: center;
 }
-.mantas .producto p {
+.articulos .producto p {
   font-family: "Arsenal", sans-serif;
   font-weight: bolder;
   color: #D5BDAF;
