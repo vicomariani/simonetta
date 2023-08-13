@@ -35,9 +35,12 @@
 }
 
 @media screen and (max-width: 767px) {
-   
-    .container .introduccion {
-            
+    .contacto {
+        img {
+            margin-top: calc($margin*3);
+        }
+    }
+    .container .introduccion {          
         h1 {
             font-size: calc($fuente*2)-5;
             margin-bottom: calc($margin*2);  

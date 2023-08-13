@@ -84,9 +84,8 @@
   margin: 10px 30px;
 }
 
-.contacto {
-  display: flex;
-  flex-direction: row;
+.contacto img {
+  margin-top: 50px;
 }
 .contacto h1 {
   font-family: "Rancho";
@@ -198,6 +197,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .contacto img {
+    margin-top: 30px;
+  }
   .container .introduccion h1 {
     font-size: 35px;
     margin-bottom: 20px;

@@ -63,13 +63,11 @@
         margin-bottom: calc($margin*2)+5;
                
     }
-
     img {         
         @include sizes(320px, 320px);
         margin-bottom: ($margin);
         
     }
-
     a {
         font-family: $tipografia-secundaria;
         background-color: $color-primario;
@@ -81,7 +79,6 @@
             background-color: $color-terciario;
         }
     }
-
     h2 {
         font-family: $tipografia-secundaria;
         color: $color-primario;
@@ -98,8 +95,9 @@
 }
 
 .contacto {
-    display: flex;
-    flex-direction: row;
+    img {
+        margin-top: calc($margin*5);
+    }
     
     h1 { 
         font-family: $tipografia-principal;
