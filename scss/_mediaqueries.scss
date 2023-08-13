@@ -30,11 +30,25 @@
             @include sizes(260px, 260px);
         }
     }
-    
-    
+    .articulos .productos-container .producto {
+        img {
+         height: calc($tamaño/2)+30;
+         padding: ($padding);
+         margin-top: $margin;
+         margin-bottom: $margin;  
+        } 
+        h2 {
+         font-size: calc($fuente)-2;   
+        }  
+    }
 }
 
 @media screen and (max-width: 767px) {
+
+    .articulos .productos-container .producto img {
+        height: calc($tamaño)-30;
+    }
+
     .contacto {
         img {
             margin-top: calc($margin*3);
@@ -64,9 +78,10 @@
         }
     }     
     .container .img-inicio img {
-         height: calc($tamaño)-100;
-         margin-bottom: ($margin);
-    }
+        height: calc($tamaño)-100;
+        margin-bottom: ($margin);
+        margin-top: ($margin);
+   }
     .contenedor img {
     @include sizes(250px, 250px);
     }
